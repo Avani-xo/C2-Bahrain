@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahrain Flag</title>
+    <style>
+        body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #eee;
+    flex-direction: column;
+}
+
+.flag {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    border: 3px solid #333;
+    background-color: #ce1126;
+}
+
+.white-part {
+    background-color: #fff;
+    width: 20%;
+    position: relative;
+}
+
+.red-part {
+    background-color: #ce1126; 
+    width: 65%;
+}
+
+/* .zigzag {
+    position: absolute;
+    right: -20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+} */
+
+/* .triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid #fff;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+} */
+.extra{
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    clip-path: polygon(0% 0%, 100% 10%, 0% 20%, 100% 30%, 0% 40%, 100% 50%, 0% 60%, 100% 70%, 0% 80%, 100% 90%, 0% 100%);
+}
+
+ 
+    </style>
+</head>
+<body>
+    <h1>Welcome to BAHRAIN</h1><br>
+    <div class="flag">
+        <div class="white-part"></div>
+        <div class="extra"></div>
+        <div class="red-part"></div>
+    </div>
+</body>
+</html>
